@@ -1,4 +1,5 @@
 [versions]
+accompanist = '0.28.0'
 compose-bom = '2022.12.00'
 compose-compiler = '1.3.2'
 coroutines = '1.6.4'
@@ -25,10 +26,10 @@ hsk-ktx = {module = 'com.github.mwy3055:hsk-ktx', version.ref = 'hsk-ktx'}
 violet-dreams-core = {module = 'com.github.mwy3055.violet-dreams:violet-dreams-core', version.ref = 'violet-dreams'}
 violet-dreams-ui = {module = 'com.github.mwy3055.violet-dreams:violet-dreams-ui', version.ref = 'violet-dreams'}
 
-accompanist-drawablepainter = 'com.google.accompanist:accompanist-drawablepainter:0.25.1'
-accompanist-pager = 'com.google.accompanist:accompanist-pager:0.23.1'
-accompanist-placeholder-material = 'com.google.accompanist:accompanist-placeholder-material:0.23.1'
-accompanist-systemuicontroller = 'com.google.accompanist:accompanist-systemuicontroller:0.23.1'
+accompanist-drawablepainter = {module = 'com.google.accompanist:accompanist-drawablepainter', version.ref = 'accompanist'}
+accompanist-pager = {module = 'com.google.accompanist:accompanist-pager', version.ref = 'accompanist'}
+accompanist-placeholder-material = {module = 'com.google.accompanist:accompanist-placeholder-material', version.ref = 'accompanist'}
+accompanist-systemuicontroller = {module = 'com.google.accompanist:accompanist-systemuicontroller', version.ref = 'accompanist'}
 
 androidx-collection-ktx = 'androidx.collection:collection-ktx:1.2.0'
 androidx-core-ktx = 'androidx.core:core-ktx:1.9.0'
