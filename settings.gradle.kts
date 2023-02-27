@@ -1,3 +1,3 @@
 
-rootProject.name = "gradle-build-script"
+rootProject.name = "gradle-version-catalog"
 

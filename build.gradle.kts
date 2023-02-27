@@ -4,8 +4,8 @@ plugins {
     `maven-publish`
 }
 
-group = "org.example"
-version = "1.0"
+group = "kr.hsk"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -25,7 +25,7 @@ kotlin {
 
 catalog {
     versionCatalog {
-        library("hsk-lib", "kr.hsk:catalog:1.0.0")
+        from(files("libs.versions.toml"))
     }
 }
 
